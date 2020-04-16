@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+    <canvas id="canvas" width="581.9" height="581.9"></canvas>
+  
+    <section >
+      <h1 >Score</h1>
+      <img src="https://cdn.pixabay.com/photo/2017/01/28/11/43/cup-2015198_960_720.png" alt="tr" style="width: 70px;height: 70px;"> 
+    <h3 id="score" >0</h3>
+   
+
+    
+    <button type="button" class="btn btn-danger" onclick="pause()" data-toggle="modal" data-target="#exampleModal">
+        Pause      </button>
+   <br>
+   <br>
+   <br> 
+  
+   </section>
+        
+    <div class="float-right bestscore">
+      <h1 >Best score</h1>
+      <img src="https://pixabay.com/get/57e6d7414f50af14f1dc8460c62d3e761d3fd6e24e507441722f7fd19f4cc5_640.png?attachment=" alt="tr" style="width: 70px;height: 70px;">
+      <h3 id="score" >0</h3>
+    </div>  
+
+</body>
+<script src="do.js"></script>
+</html>
