@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/f6/fe/01/f6fe01bc451088065d21ddb805ed1a9e.gif");
+    background-size:cover;  
+}
+
+canvas{
+  margin-top: 50px;
+    margin-left: 27%;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+section{
+  
+margin-top: -500px;
+background: rgba(240, 230, 140, 0.432);
+width: 300px;
+height: 300px;
+margin-left: 20px;
+text-align: center;
+
+}
+.bestscore{
+  background: rgba(240, 230, 140, 0.432);
+  width: 300px;
+  height: 300px;
+  margin-right: 2cm ;
+  margin-top: -8cm;
+  text-align: center;
+}
+  
